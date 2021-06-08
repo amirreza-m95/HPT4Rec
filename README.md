@@ -2,9 +2,9 @@
 An AutoML based hyperparameter self-tuning framework, with modular code-base designed for session-based recommondation aimed to ease the developing and manipulating process of deep recommonder algorithms. 
 
 
-<!-- <p align="center">
-<img src="docs/img/nni_logo.png" width="300"/>
-</p> -->
+<p align="center">
+<img src="img/optResult.PNG" width="300"/>
+</p>
 
 -----------
 
