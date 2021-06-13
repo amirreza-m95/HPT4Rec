@@ -2,9 +2,9 @@
 An AutoML based hyperparameter self-tuning framework, with modular code-base designed for session-based recommondation aimed to ease the developing and manipulating process of deep recommonder algorithms. 
 
 
-<!-- <p align="center">
-<img src="docs/img/nni_logo.png" width="300"/>
-</p> -->
+<p align="center">
+<img src="img/optResult.PNG" width="900"/>
+</p>
 
 -----------
 
@@ -25,9 +25,17 @@ The tool manages automated machine learning (AutoML) experiments, **dispatches a
 * Researchers and data scientists who want to easily **implement and experiment new AutoML algorithms**, may it be: hyperparameter tuning algorithm, neural architect search algorithm or model compression algorithm.
 * ML Platform owners who want to **support AutoML in their platform**.
 
+<p align="center">
+<img src="img/frameworkStructure.PNG" width="900"/>
+</p>
+
 ## **HPT4Rec capabilities in a glance**
 
 HPT4Rec provides CommandLine Tool as well as an user friendly WebUI to manage training experiments. With the extensible API, you can customize your own AutoML algorithms and training services. To make it easy for new users, HPT4Rec also provides a set of build-in state-of-the-art AutoML algorithms and out of box support for popular training platforms.
+
+<p align="center">
+<img src="img/comparisionTable.jpg" width="900"/>
+</p>
 
 Within the following table, we summarized the current HPT4Rec capabilities, we are gradually adding new capabilities and we'd love to have your contribution.
 
