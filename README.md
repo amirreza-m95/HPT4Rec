@@ -225,7 +225,7 @@ Within the following table, we summarized the current HPT4Rec capabilities, we a
 
 ### **Install**
 
-HPT4Rec supports and is tested on Ubuntu >= 16.04, macOS >= 10.14.1, and Windows 10 >= 1809. Simply run the following `pip install` in an environment that has `python 64-bit >= 3.6`.
+HPT4Rec supports and is tested on Ubuntu >= 16.04, macOS >= 10.14.1, and Windows 10 >= 1809. Simply run the following `pip install nni` first in an environment that has `python 64-bit >= 3.6`.
 
 Linux or macOS
 
@@ -238,7 +238,11 @@ Windows
 ```bash
 python -m pip install --upgrade nni
 ```
+And then clone the repositroy in the same folder with nni and change the dataset and configuration as you wish and then just run as follow:
 
+```bash
+python experiment.py
+```
 
 
 We encourage researchers and students leverage these projects to accelerate the AI development and research.
