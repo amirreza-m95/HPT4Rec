@@ -1,6 +1,6 @@
 from torch import nn
 import torch
-
+#main GRU4Rec implementation
 class GRU4REC(nn.Module):
     def __init__(self, input_size, hidden_size, output_size, num_layers=1, final_act='tanh',
                  dropout_hidden=.5, dropout_input=0, batch_size=50, embedding_dim=-1, use_cuda=False):
